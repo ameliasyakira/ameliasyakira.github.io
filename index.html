@@ -1,1 +1,238 @@
-Halo nama saya Amel
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Peta Pembelajaran Web Developer Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .topic {
+            border-bottom: 1px solid #444;
+            padding: 10px 0;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .topic h2 {
+            margin: 0;
+            flex: 1;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .topic img {
+            max-width: 30px;
+            margin-right: 10px;
+        }
+
+        .topic:hover {
+            background-color: #444;
+        }
+
+        .content {
+            display: none;
+            padding: 10px 0;
+        }
+
+        .content p {
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .active {
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Peta Pembelajaran Web Developer Profesional</h1>
+    </header>
+
+    <div class="container">
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/html-5.png" alt="HTML Icon">
+            <h2>HTML</h2>
+        </div>
+        <div class="content active">
+            <p>Bahasa markup untuk membuat struktur dan konten halaman web.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/css3.png" alt="CSS Icon">
+            <h2>CSS</h2>
+        </div>
+        <div class="content">
+            <p>Bahasa untuk menggaya dan mempercantik tampilan halaman web.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/javascript-logo.png" alt="JavaScript Icon">
+            <h2>JavaScript</h2>
+        </div>
+        <div class="content">
+            <p>Bahasa pemrograman yang kuat untuk mengatur interaksi dan perilaku halaman web.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/responsive.png" alt="Responsive Icon">
+            <h2>Responsive Web Design</h2>
+        </div>
+        <div class="content">
+            <p>Mendesain halaman web agar menyesuaikan dengan berbagai perangkat dan ukuran layar.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/framework.png" alt="Framework Icon">
+            <h2>Front-End Frameworks</h2>
+        </div>
+        <div class="content">
+            <p>Menggunakan framework seperti React, Angular, atau Vue.js untuk membangun aplikasi web yang kompleks.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/server.png" alt="Server Icon">
+            <h2>Server-Side Programming</h2>
+        </div>
+        <div class="content">
+            <p>Menguasai bahasa pemrograman server-side seperti Node.js, Python, Ruby, PHP, atau Java untuk mengelola logika dan data di sisi server.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/database.png" alt="Database Icon">
+            <h2>Database Management</h2>
+        </div>
+        <div class="content">
+            <p>Menggunakan basis data SQL (MySQL, PostgreSQL) atau NoSQL (MongoDB, Firebase) untuk menyimpan dan mengelola data aplikasi.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/security-shield.png" alt="Security Icon">
+            <h2>Web Security</h2>
+        </div>
+        <div class="content">
+            <p>Melindungi aplikasi web dari serangan dan mengimplementasikan praktik keamanan terbaik.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/rocket.png" alt="Deployment Icon">
+            <h2>Deployment</h2>
+        </div>
+        <div class="content">
+            <p>Mendeploy aplikasi web secara online menggunakan platform seperti Heroku, AWS, atau Azure.</p>
+        </div>
+
+       
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/api.png" alt="API Icon">
+            <h2>API Integration</h2>
+        </div>
+        <div class="content">
+            <p>Mengintegrasikan aplikasi web dengan berbagai API eksternal untuk mengambil dan menyimpan data dari sumber eksternal.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/performance.png" alt="Performance Icon">
+            <h2>Performance Optimization</h2>
+        </div>
+        <div class="content">
+            <p>Meningkatkan kinerja aplikasi web dengan teknik caching, kompresi, pengoptimalan gambar, dan pemilihan alat bantu yang efisien.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/testing.png" alt="Testing Icon">
+            <h2>Testing</h2>
+        </div>
+        <div class="content">
+            <p>Menerapkan tes unit, tes integrasi, dan tes end-to-end untuk memastikan kualitas dan keandalan aplikasi web.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/version-control.png" alt="Version Control Icon">
+            <h2>Version Control System</h2>
+        </div>
+        <div class="content">
+            <p>Menggunakan Git dan platform seperti GitHub atau GitLab untuk mengelola versi kode aplikasi dan kolaborasi tim.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/continuous-integration.png" alt="CI/CD Icon">
+            <h2>Continuous Integration & Continuous Deployment</h2>
+        </div>
+        <div class="content">
+            <p>Menerapkan aliran kerja CI/CD untuk otomatisasi pengujian dan penerbitan aplikasi secara terus menerus.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/seo.png" alt="SEO Icon">
+            <h2>Search Engine Optimization (SEO)</h2>
+        </div>
+        <div class="content">
+            <p>Menerapkan strategi dan praktik SEO untuk meningkatkan visibilitas dan peringkat aplikasi web di mesin pencari.</p>
+        </div>
+
+        <div class="topic">
+            <img src="https://img.icons8.com/dusk/64/000000/accessibility.png" alt="Accessibility Icon">
+            <h2>Web Accessibility</h2>
+        </div>
+        <div class="content">
+            <p>Mengoptimalkan aksesibilitas aplikasi web untuk pengguna dengan beragam kemampuan dan perangkat bantu.</p>
+        </div>
+    </div>
+
+    <script>
+        const topics = document.querySelectorAll('.topic');
+
+        topics.forEach(topic => {
+            topic.addEventListener('click', () => {
+                const content = topic.nextElementSibling;
+                topics.forEach(otherTopic => {
+                    if (otherTopic !== topic) {
+                        otherTopic.nextElementSibling.classList.remove('active');
+                    }
+                });
+                content.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
+
